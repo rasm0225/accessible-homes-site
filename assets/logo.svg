@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120">
+  <!-- Circle background -->
+  <circle cx="55" cy="55" r="48" fill="#f5e6d0" stroke="#b5703c" stroke-width="5"/>
+
+  <!-- House body -->
+  <polygon points="55,18 25,45 25,78 85,78 85,45" fill="#d4782f"/>
+
+  <!-- House roof peak (triangle) -->
+  <polygon points="55,14 20,47 90,47" fill="#d4782f"/>
+
+  <!-- Door/window cutout -->
+  <rect x="44" y="52" width="22" height="26" rx="2" fill="#f5e6d0"/>
+
+  <!-- Green arrow pointing up -->
+  <polygon points="55,22 35,52 44,52 44,82 66,82 66,52 75,52" fill="#7ab648"/>
+
+  <!-- Arrow stem overlay to clean up -->
+  <rect x="46" y="52" width="18" height="30" fill="#7ab648"/>
+
+  <!-- Text: Accessible Homes -->
+  <text x="115" y="48" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="400" fill="#5a6e3a" letter-spacing="0.5">Accessible Homes</text>
+
+  <!-- Subtitle -->
+  <text x="115" y="72" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-weight="400" fill="#8a7a5a" letter-spacing="0.3">Serving people of all abilities</text>
+</svg>
