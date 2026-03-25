@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- Circle background -->
+  <circle cx="60" cy="60" r="57" fill="none" stroke="#C0652A" stroke-width="5"/>
+  <circle cx="60" cy="60" r="52" fill="#F5DFC6"/>
+
+  <!-- House body -->
+  <rect x="33" y="50" width="54" height="38" fill="#D4792E" rx="1"/>
+
+  <!-- House roof (triangle) -->
+  <polygon points="60,18 26,52 94,52" fill="#D4792E"/>
+
+  <!-- Green arrow -->
+  <g transform="translate(60, 75)">
+    <!-- Arrow shaft -->
+    <rect x="-10" y="-19" width="20" height="42" fill="#7DC242" rx="1"/>
+    <!-- Arrow head -->
+    <polygon points="0,-33 -17,-15 17,-15" fill="#7DC242"/>
+  </g>
+</svg>
