@@ -454,6 +454,23 @@ a {
 }
 
 @media (max-width: 768px) {
+  .logo {
+    height: 64px;
+  }
+
+  .header-inner {
+    height: 80px;
+  }
+
+  .phone-text {
+    display: none;
+  }
+
+  .header-phone svg {
+    width: 28px;
+    height: 28px;
+  }
+
   .hero .container {
     padding-left: 32px;
     padding-right: 32px;
