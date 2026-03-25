@@ -1,25 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 120" width="520" height="120">
   <!-- Circle background -->
-  <circle cx="55" cy="55" r="48" fill="#f5e6d0" stroke="#b5703c" stroke-width="5"/>
+  <circle cx="55" cy="60" r="52" fill="none" stroke="#C0652A" stroke-width="5"/>
+  <circle cx="55" cy="60" r="47" fill="#F5DFC6"/>
 
   <!-- House body -->
-  <polygon points="55,18 25,45 25,78 85,78 85,45" fill="#d4782f"/>
+  <rect x="30" y="48" width="50" height="35" fill="#D4792E" rx="1"/>
 
-  <!-- House roof peak (triangle) -->
-  <polygon points="55,14 20,47 90,47" fill="#d4782f"/>
+  <!-- House roof (triangle) -->
+  <polygon points="55,18 24,50 86,50" fill="#D4792E"/>
 
-  <!-- Door/window cutout -->
-  <rect x="44" y="52" width="22" height="26" rx="2" fill="#f5e6d0"/>
-
-  <!-- Green arrow pointing up -->
-  <polygon points="55,22 35,52 44,52 44,82 66,82 66,52 75,52" fill="#7ab648"/>
-
-  <!-- Arrow stem overlay to clean up -->
-  <rect x="46" y="52" width="18" height="30" fill="#7ab648"/>
+  <!-- Green arrow -->
+  <g transform="translate(55, 72)">
+    <!-- Arrow shaft -->
+    <rect x="-9" y="-18" width="18" height="38" fill="#7DC242" rx="1"/>
+    <!-- Arrow head -->
+    <polygon points="0,-30 -15.5,-14 15.5,-14" fill="#7DC242"/>
+  </g>
 
   <!-- Text: Accessible Homes -->
-  <text x="115" y="48" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="400" fill="#5a6e3a" letter-spacing="0.5">Accessible Homes</text>
+  <text x="118" y="55" font-family="Georgia, 'Times New Roman', serif" font-size="40" fill="#C0652A" letter-spacing="0.5">Accessible Homes</text>
 
-  <!-- Subtitle -->
-  <text x="115" y="72" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-weight="400" fill="#8a7a5a" letter-spacing="0.3">Serving people of all abilities</text>
+  <!-- Text: Serving people of all abilities -->
+  <text x="120" y="82" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#888888" letter-spacing="0.3" font-style="italic">Serving people of all abilities</text>
 </svg>
