@@ -454,9 +454,9 @@ a {
 }
 
 @media (max-width: 768px) {
-  .hero-content {
-    padding-left: 16px;
-    padding-right: 16px;
+  .hero .container {
+    padding-left: 32px;
+    padding-right: 32px;
   }
 
   .hero {
